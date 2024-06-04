@@ -131,7 +131,7 @@ void update()
     float ticks = SDL_GetTicks() / 1000.0f;
     float delta_time = ticks - g_previous_ticks;
     g_previous_ticks = ticks;
-    g_theta += 0.001f;
+    //g_theta += 0.001f;
 
     /*update logic*/
     //g_triangle_x += 6.0f * cos(g_theta) * delta_time;
